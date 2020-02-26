@@ -1,0 +1,2 @@
+https://lisadikaprio.itch.io
+You're free to modify this asset as you see fit, you're also free to use in personal as well as commercial and monetized works. Yet you may not share or use this asset without crediting the author first - just giving my nickname (LisadiKaprio) and saying you found this on itch.io would be enough.
