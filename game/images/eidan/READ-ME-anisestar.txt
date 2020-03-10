@@ -1,0 +1,19 @@
+EIDAN VISUAL NOVEL SPRITE SET by Anise-star
+
+FILE CONTENTS:
+
+	- Male sprite, 1193x1880 pixels.
+	- PNG format available for one clothing style.
+	- PSD format provided to alter hair colour, eye colour, and toggle jacket, headphones and glasses.
+
+DISCLAIMER:
+
+This sprite set follows:
+	Creative Commons License: Attribution-NonCommercial 4.0 International
+	https://creativecommons.org/licenses/by-nc/4.0/
+
+	- Sprite can only be used for non-commercial use only.
+	- You must credit the sprite's Artist as "Anise-star".
+
+Other notes:
+	- in the PSD file, I have overlayed the sprite with a texture from Sirius-sdz: (https://sirius-sdz.deviantart.com/). Please credit him if you use the texture on the sprite.
