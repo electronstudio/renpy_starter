@@ -1,33 +1,18 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-
-
-# The game starts here.
+﻿define k = Character("Kieran")
+define r = Character("Reena", who_color="#ff0000")
 
 label start:
-
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    scene bg room
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    show eileen happy
-
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
-
+    scene bg school day
+    "I am the narrator."
+    show kieran normal
+    "Kieran" "I am Kieran."
+    show kieran at left
+    k "Defined as 'k' for short."
+    show reena normal
+    r "I am Reena and my colour is red."
+    show reena at right with move
+    r "I can move my position."
+    scene bg space with fade
+    k "We are in space now."
+    "POW" with vpunch
     return
