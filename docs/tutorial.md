@@ -13,12 +13,29 @@ work on making your story longer and better instead!
 Download Renpy bundled with a copy of a the starter project here:
 [https://github.com/electronstudio/renpy_starter/releases/download/1/renpy-coderdojo1.zip](https://github.com/electronstudio/renpy_starter/releases/download/1/renpy-coderdojo1.zip)
 
-On _Windows_ just unzip the file to your Desktop and double click __renpy.exe__ to start.
+It is a big file and you will need 1 GB of free space on your computer.  If you don't have this you can delete the files in your Download directory
+or uninstall some games.
+
+On _Windows_ just the file to your Desktop and double click __renpy.exe__ to start.
 
 On _Mac_ after you unzip you will need to type this in to Terminal:
 ```
 xattr -r -d com.apple.quarantine Downloads/renpy-coderdojo1/renpy.app
 xattr -r -d com.apple.quarantine Downloads/renpy-coderdojo1/editra/Editra-mac.app
+```
+
+On _Linux_ you can use Terminal commands to download and unzip:
+```
+wget https://github.com/electronstudio/renpy_starter/releases/download/1/renpy-coderdojo1.zip
+unzip renpy-coderdojo1.zip
+chmod +x renpy-coderdojo1/renpy.sh
+rm -rf renpy-coderdojo1/editra/
+```
+
+Then to run Renpy:
+
+```
+renpy-coderdojo1/renpy.sh
 ```
 
 ## Basics (Beginner)
@@ -219,7 +236,7 @@ You can play a sound file with `sound play`.  You can play a loop of music with 
 Look in the __audio__ directory to see what sounds are available.  You can record or download your own sounds.
 They should be __.ogg__ or __.mp3__ format.
 
-1. Add `music play music1` to somewhere in the script.
+1. Add `play music music1` to somewhere in the script.
 2. Add a sound effect of your choice to the script.
 
 ## Integers (Advanced)
@@ -265,7 +282,7 @@ label booleans:
 
 ##  Integers (Advanced)
 
-_On line 2, change `call booleans` to `call input`_.
+_On line 2, change `call booleans` to `call integers`_.
 
 Then add this new code at the end of the program.  (Line numbers shown here will __not__ match the line numbers in your program.)
 
