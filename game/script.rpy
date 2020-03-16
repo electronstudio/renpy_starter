@@ -22,6 +22,7 @@ label basic:
     r "I can move my position."
     scene bg space with fade
     show kieran angry
+    play sound spacetrash1
     "POW" with vpunch
     k "We are in space now."
     return
@@ -31,21 +32,24 @@ label flow:
     show kim smile with moveinright
     "Kim" "This is the lake"
     menu:
-        "Where should we go?"
+        "Where should we play our music?"
         "The Park":
             call fun
         "The school":
             call boring
     scene bg lake
     "Back to the lake!"
+    stop music
     return
 
 label fun:
+    play music music4
     scene bg park
     "OK"
     return
 
 label boring:
+    play music music1
     scene bg school
     "OK"
     return
@@ -85,14 +89,16 @@ label booleans:
     "You take the item"
     scene bg lake night with fade
     show gravekeeper
+    play sound spacetrash2
     "A monster attacks" with hpunch
     if has_book:
+        play sound laser1
         hide gravekeeper with zoomout
         "You use the book to cast a spell on the monster."
     else:
-        "Your sword is useless and the monster kills you." with vpunch
         scene bg black
-    "The End."
+        play sound game_over
+        "Your sword is useless and the monster kills you." with vpunch
     return
 
 define points = 0
@@ -109,6 +115,8 @@ label integers:
     scene black
     "You scored [points] kindness points."
     if points > 0:
+        play sound congratulations
         "You win."
     else:
+        play sound you_lose
         "You lose"
