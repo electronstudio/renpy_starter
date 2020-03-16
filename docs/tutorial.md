@@ -16,7 +16,7 @@ Download Renpy bundled with a copy of a the starter project here:
 It is a big file and you will need 1 GB of free space on your computer.  If you don't have this you can delete the files in your Download directory
 or uninstall some games.
 
-On _Windows_ just the file to your Desktop and double click __renpy.exe__ to start.
+On _Windows_ unzip the file to your Desktop and double click __renpy.exe__ to start.
 
 On _Mac_ after you unzip you will need to type this in to Terminal:
 ```
