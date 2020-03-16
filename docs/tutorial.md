@@ -10,7 +10,16 @@ work on making your story longer and better instead!
 
 ## Download
 
-Download Renpy bundled with a copy of a the starter project here.
+Download Renpy bundled with a copy of a the starter project here:
+[https://github.com/electronstudio/renpy_starter/releases/download/1/renpy-coderdojo1.zip](https://github.com/electronstudio/renpy_starter/releases/download/1/renpy-coderdojo1.zip)
+
+On _Windows_ just unzip the file to your Desktop and double click __renpy.exe__ to start.
+
+On _Mac_ after you unzip you will need to type this in to Terminal:
+```
+xattr -r -d com.apple.quarantine Downloads/renpy-coderdojo1/renpy.app
+xattr -r -d com.apple.quarantine Downloads/renpy-coderdojo1/editra/Editra-mac.app
+```
 
 ## Basics (Beginner)
 
