@@ -205,31 +205,6 @@ Renpy does not have a built in command for this.
 
 1. Add additional `elif` statements for your name and your friend's name.
 
-## Booleans (Intermediate)
-
-_On line 2, change `call flow` to `call input`_.
-
-Then add this new code at the end of the program. (Line numbers shown here will __not__ match the line numbers in your program.)
-
-```renpy
-define player = Character("[name]")
-define jen = Character("Jen", who_color="#00ff00")
-
-label input:
-    scene bg forest
-    show jen normal with zoomin
-    $ name = renpy.input("What is your name?")
-    player "My name is [name]."
-    jen "Hi [name]"
-    if name == "Richard":
-        jen "That is a good name."
-    elif name == "Nick":
-        jen "That is a silly name."
-    else:
-        jen "I don't know you."
-    return
-```
-
 ## Sound and music
 
 You can play a sound file with `sound play`.  You can play a loop of music with `music play`.
@@ -239,7 +214,7 @@ They should be __.ogg__ or __.mp3__ format.
 1. Add `play music music1` to somewhere in the script.
 2. Add a sound effect of your choice to the script.
 
-## Integers (Advanced)
+## Booleans (Advanced)
 
 _On line 2, change `call input` to `call booleans`_.
 
